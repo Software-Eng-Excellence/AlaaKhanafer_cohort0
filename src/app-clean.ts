@@ -6,6 +6,10 @@ export interface Order {
     price: number
 }
 
+interface IValidator {
+    validate(order: Order): void;
+}
+
 export class OrderManagement {
     // get and add orders, fetch order
     private orders: Order[] = []
@@ -14,9 +18,9 @@ export class OrderManagement {
     }
 
     addOrder(item: string, price: number){
-        Validator.validateOrder(item);
-        Validator.validatePrice(price);
-        this.orders.push({id: this.orders.length+ + 1, item, price});
+        const order: Order = {id: this.orders.length + 1, item, price}
+        new Validator().validate(order);
+        this.orders.push(order);
     }
 
     getOrder(id: number){
@@ -24,8 +28,18 @@ export class OrderManagement {
     }
 }
 
-export class Validator {
-    // this baaden should have its db table, with crud methods for the bussiness owner 
+export class Validator implements IValidator{
+    private rules: IValidator[] = [
+        new ItemValidator(),
+        new PriceValidator(),
+        new MaxPriceValidator(),
+    ]
+    validate(order: Order): void {
+        this.rules.forEach(rule => rule.validate(order));
+    }
+}
+
+class ItemValidator implements IValidator {
     private static possibleItems = [
         "Sponge",
         "Chocolate",
@@ -37,17 +51,25 @@ export class Validator {
         "Coffee",
       ];
 
-    // validate item is possible
-    public static validateOrder(item: string){
-        if (!this.possibleItems.includes(item)){
-            throw new Error(`Invalide item. Must be one of: ${this.possibleItems.join(",")}`);
+    validate(order: Order) {
+        if (!ItemValidator.possibleItems.includes(order.item)) {
+            throw new Error(`Invalid item. Must be one of: ${ItemValidator.possibleItems.join(",")}`);
         }
     }
+}
 
-    //validate price positive
-    public static validatePrice(price: number){
-        if (price <= 0){
+class PriceValidator implements IValidator {
+    validate(order: Order) {
+        if (order.price <= 0) {
             throw new Error("Price must be greater than zero");
+        }
+    }
+}
+
+class MaxPriceValidator implements IValidator{
+    validate(order: Order) {
+        if (order.price > 100) {
+            throw new Error("Price must be less than 100");
         }
     }
 }
