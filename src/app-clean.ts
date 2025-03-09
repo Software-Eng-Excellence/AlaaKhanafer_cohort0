@@ -6,40 +6,64 @@ export interface Order {
     price: number
 }
 
-interface IValidator {
-    validate(order: Order): void;
-}
-
 export class OrderManagement {
     // get and add orders, fetch order
-    private orders: Order[] = []
+    private orders: Order[] = [];
+    constructor(private validator: IValidator, private calculator: ICalculator){
+
+    }
+
     getOrders(){
         return this.orders;
     }
 
     addOrder(item: string, price: number){
         const order: Order = {id: this.orders.length + 1, item, price}
-        new Validator().validate(order);
+        this.validator.validate(order);
         this.orders.push(order);
     }
 
     getOrder(id: number){
         return this.getOrders().find(order => order.id === id);
     }
+
+    getTotalRevenue(){
+        return this.calculator.getRevenue(this.orders);
+    }
+
+    getBuyPower(){
+        return this.calculator.getAverageBuyPower(this.orders);
+    }
+}
+
+export class PremiumOrderManagement extends OrderManagement {
+    getOrder(id: number): Order | undefined {
+        console.log("ALERT: Premium order being fetched");
+        return super.getOrder(id);
+    }
+}
+
+
+interface IValidator {
+    validate(order: Order): void;
+}
+
+interface IPossibleItems {
+    getPossibleItems(): string[];
 }
 
 export class Validator implements IValidator{
-    private rules: IValidator[] = [
-        new ItemValidator(),
-        new PriceValidator(),
-        new MaxPriceValidator(),
-    ]
+    constructor(private rules: IValidator[]){}
+     
     validate(order: Order): void {
         this.rules.forEach(rule => rule.validate(order));
     }
 }
 
-class ItemValidator implements IValidator {
+export class ItemValidator implements IValidator, IPossibleItems {
+    getPossibleItems(): string[] {
+        return ItemValidator.possibleItems;
+    }
     private static possibleItems = [
         "Sponge",
         "Chocolate",
@@ -58,7 +82,7 @@ class ItemValidator implements IValidator {
     }
 }
 
-class PriceValidator implements IValidator {
+export class PriceValidator implements IValidator {
     validate(order: Order) {
         if (order.price <= 0) {
             throw new Error("Price must be greater than zero");
@@ -66,7 +90,7 @@ class PriceValidator implements IValidator {
     }
 }
 
-class MaxPriceValidator implements IValidator{
+export class MaxPriceValidator implements IValidator{
     validate(order: Order) {
         if (order.price > 100) {
             throw new Error("Price must be less than 100");
@@ -74,13 +98,17 @@ class MaxPriceValidator implements IValidator{
     }
 }
 
-export class FinanceCalculator {
+interface ICalculator {
+    getRevenue(orders: Order[]): number;
+    getAverageBuyPower(orders: Order[]): number;
+}
+export class FinanceCalculator implements ICalculator{
     // calculate total rev and avg buy power
-    public static getRevenue(orders: Order[]){
+    public getRevenue(orders: Order[]){
         return orders.reduce((total, order) => total + order.price, 0); 
         //reduce: is like shrinking all objects, and every project we're taking from the Order array we're summing its price with the total (summation of prices of previous order' items)
     }
-    public static getAverageBuyPower(orders: Order[]){
+    public getAverageBuyPower(orders: Order[]){
         return orders.length === 0 ? 0 : this.getRevenue(orders) / orders.length;
     }
 }
