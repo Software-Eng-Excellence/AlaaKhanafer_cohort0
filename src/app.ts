@@ -18,9 +18,13 @@ export class OrderManagement {
   }
 
   addOrder(item: string, price: number){
+    try {
       const order: Order = {id: this.orders.length + 1, item, price}
       this.validator.validate(order);
       this.orders.push(order);
+    } catch (error: any) {
+      throw new Error("[OrderManagement] Error adding order: " + error.message);
+    }   
   }
 
   getOrder(id: number){
