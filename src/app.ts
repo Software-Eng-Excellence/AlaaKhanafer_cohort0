@@ -1,3 +1,4 @@
+import logger from "./util/logger";
 //SOLID Principles
 
 export interface Order {
@@ -10,7 +11,7 @@ export class OrderManagement {
   // get and add orders, fetch order
   private orders: Order[] = [];
   constructor(private validator: IValidator, private calculator: ICalculator){
-
+    logger.debug("OrderManagement instance created");
   }
 
   getOrders(){
@@ -23,12 +24,17 @@ export class OrderManagement {
       this.validator.validate(order);
       this.orders.push(order);
     } catch (error: any) {
+      logger.error(`failed validation: ${error.message}`);
       throw new Error("[OrderManagement] Error adding order: " + error.message);
     }   
   }
 
   getOrder(id: number){
-      return this.getOrders().find(order => order.id === id);
+      const order = this.orders.find(order => order.id === id);
+      if(!order){ 
+        logger.warn(`Order with ID ${id} not found`);
+      }
+      return order;
   }
 
   getTotalRevenue(){
@@ -81,7 +87,7 @@ export class ItemValidator implements IValidator, IPossibleItems {
 
   validate(order: Order) {
       if (!ItemValidator.possibleItems.includes(order.item)) {
-          throw new Error(`Invalid item. Must be one of: ${ItemValidator.possibleItems.join(",")}`);
+        throw new Error(`Invalid item. Must be one of: ${ItemValidator.possibleItems.join(",")}`);
       }
   }
 }
@@ -89,7 +95,8 @@ export class ItemValidator implements IValidator, IPossibleItems {
 export class PriceValidator implements IValidator {
   validate(order: Order) {
       if (order.price <= 0) {
-          throw new Error("Price must be greater than zero");
+        logger.error(`Price is negative: ${order.item}`);  
+        throw new Error("Price must be greater than zero");
       }
   }
 }
