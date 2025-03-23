@@ -1,0 +1,101 @@
+ID,Type,Flavor,Filling,Size,Layers,Frosting Type,Frosting Flavor,Decoration Type,Decoration Color,Custom Message,Shape,Allergies,Special Ingredients,Packaging Type,Price,quantity
+1,Wedding,Vanilla,Lemon Curd,12 inch,1,Fondant,Lemon,Edible Flowers,Pink,Happy Anniversary!,Round,Gluten,Almond Milk,Gift Wrap,74.07,2
+2,Wedding,Carrot,Vanilla Cream,6 inch,2,Buttercream,Strawberry,Chocolate Shavings,Green,Welcome Baby!,Rectangle,Gluten,Coconut Sugar,Gift Wrap,43.52,3
+3,Wedding,Carrot,Raspberry,8 inch,2,Whipped Cream,Strawberry,Fruit,Silver,Happy Anniversary!,Rectangle,Dairy,Vegan Butter,Box,107.63,3
+4,Birthday,Lemon,Lemon Curd,10 inch,1,Whipped Cream,Lemon,Fruit,Red,Happy Anniversary!,Heart,None,Vegan Butter,Box,40.01,4
+5,Baby Shower,Lemon,Strawberry,6 inch,4,Whipped Cream,Chocolate,Sprinkles,Green,Best Wishes!,Round,Dairy,Coconut Sugar,Plastic Container,129.53,3
+6,Birthday,Chocolate,Lemon Curd,6 inch,3,Fondant,Lemon,Edible Flowers,Silver,Congratulations!,Rectangle,Nuts,Vegan Butter,Gift Wrap,129.39,1
+7,Anniversary,Lemon,Strawberry,6 inch,2,Buttercream,Chocolate,Fruit,Silver,Best Wishes!,Heart,None,Vegan Butter,Box,64.55,2
+8,Birthday,Red Velvet,Chocolate Ganache,8 inch,3,Buttercream,Lemon,Fruit,Green,Happy Anniversary!,Rectangle,Dairy,Coconut Sugar,Gift Wrap,80.52,1
+9,Anniversary,Red Velvet,Chocolate Ganache,8 inch,1,Fondant,Chocolate,Chocolate Shavings,Gold,Best Wishes!,Round,Dairy,Coconut Sugar,Box,77.92,5
+10,Anniversary,Carrot,Strawberry,10 inch,1,Fondant,Vanilla,Fruit,Silver,Congratulations!,Heart,Gluten,Almond Milk,Box,84.77,5
+11,Anniversary,Red Velvet,Raspberry,12 inch,4,Fondant,Strawberry,Fruit,Gold,Congratulations!,Square,Dairy,Organic Eggs,Gift Wrap,40.36,4
+12,Birthday,Carrot,Strawberry,8 inch,3,Fondant,Vanilla,Edible Flowers,Gold,Congratulations!,Rectangle,Dairy,Almond Milk,Box,91.86,4
+13,Graduation,Red Velvet,Chocolate Ganache,6 inch,3,Whipped Cream,Chocolate,Sprinkles,Gold,Welcome Baby!,Heart,Dairy,Organic Eggs,Plastic Container,110.2,3
+14,Anniversary,Vanilla,Strawberry,6 inch,3,Whipped Cream,Lemon,Chocolate Shavings,Red,Congratulations!,Round,Nuts,Organic Eggs,Gift Wrap,135.03,3
+15,Wedding,Vanilla,Raspberry,6 inch,4,Whipped Cream,Lemon,Edible Flowers,Red,Best Wishes!,Heart,Dairy,Vegan Butter,Box,42.37,1
+16,Birthday,Carrot,Raspberry,10 inch,2,Fondant,Strawberry,Edible Flowers,Blue,Welcome Baby!,Heart,Gluten,Almond Milk,Gift Wrap,78.87,2
+17,Anniversary,Carrot,Raspberry,6 inch,3,Whipped Cream,Vanilla,Edible Flowers,Blue,Best Wishes!,Heart,Dairy,Organic Eggs,Plastic Container,139.75,1
+18,Graduation,Carrot,Chocolate Ganache,8 inch,2,Whipped Cream,Lemon,Edible Flowers,Blue,Best Wishes!,Rectangle,Nuts,Organic Eggs,Box,89.63,5
+19,Anniversary,Carrot,Chocolate Ganache,10 inch,2,Buttercream,Vanilla,Edible Flowers,Red,Happy Birthday!,Rectangle,None,Almond Milk,Gift Wrap,66.76,3
+20,Birthday,Vanilla,Vanilla Cream,10 inch,4,Whipped Cream,Strawberry,Sprinkles,Pink,Happy Anniversary!,Square,Nuts,Organic Eggs,Plastic Container,103.76,1
+21,Graduation,Red Velvet,Vanilla Cream,8 inch,4,Whipped Cream,Lemon,Chocolate Shavings,Blue,Congratulations!,Rectangle,Nuts,Vegan Butter,Plastic Container,125.6,3
+22,Baby Shower,Red Velvet,Chocolate Ganache,6 inch,4,Whipped Cream,Chocolate,Fruit,Red,Best Wishes!,Heart,Dairy,Organic Eggs,Plastic Container,143.12,1
+23,Birthday,Carrot,Chocolate Ganache,12 inch,2,Fondant,Vanilla,Sprinkles,Blue,Best Wishes!,Square,Dairy,Coconut Sugar,Box,79.48,4
+24,Baby Shower,Vanilla,Chocolate Ganache,10 inch,4,Fondant,Chocolate,Sprinkles,Blue,Best Wishes!,Round,None,Coconut Sugar,Gift Wrap,67.95,2
+25,Wedding,Carrot,Vanilla Cream,6 inch,2,Fondant,Vanilla,Edible Flowers,Red,Happy Birthday!,Round,Gluten,Almond Milk,Gift Wrap,63.62,4
+26,Wedding,Vanilla,Chocolate Ganache,6 inch,4,Buttercream,Vanilla,Edible Flowers,Blue,Congratulations!,Round,Dairy,Vegan Butter,Box,126.01,1
+27,Anniversary,Red Velvet,Raspberry,12 inch,1,Fondant,Strawberry,Chocolate Shavings,Pink,Best Wishes!,Round,None,Coconut Sugar,Plastic Container,103.62,3
+28,Anniversary,Vanilla,Lemon Curd,8 inch,4,Whipped Cream,Strawberry,Edible Flowers,Gold,Happy Birthday!,Square,Dairy,Almond Milk,Box,136.75,3
+29,Wedding,Vanilla,Raspberry,10 inch,2,Buttercream,Vanilla,Sprinkles,Pink,Best Wishes!,Round,None,Organic Eggs,Box,99.17,1
+30,Anniversary,Chocolate,Chocolate Ganache,12 inch,4,Whipped Cream,Strawberry,Edible Flowers,Green,Welcome Baby!,Rectangle,Nuts,Almond Milk,Plastic Container,30.43,4
+31,Graduation,Lemon,Chocolate Ganache,10 inch,3,Whipped Cream,Chocolate,Chocolate Shavings,Pink,Happy Birthday!,Round,None,Vegan Butter,Box,111.36,1
+32,Baby Shower,Red Velvet,Chocolate Ganache,10 inch,4,Whipped Cream,Strawberry,Edible Flowers,Blue,Welcome Baby!,Heart,Dairy,Vegan Butter,Gift Wrap,26.52,1
+33,Baby Shower,Vanilla,Vanilla Cream,12 inch,4,Whipped Cream,Chocolate,Edible Flowers,Blue,Happy Birthday!,Heart,Gluten,Coconut Sugar,Plastic Container,59.53,4
+34,Baby Shower,Red Velvet,Strawberry,12 inch,2,Whipped Cream,Lemon,Fruit,Pink,Happy Birthday!,Rectangle,Nuts,Vegan Butter,Plastic Container,78.66,4
+35,Baby Shower,Chocolate,Vanilla Cream,10 inch,2,Fondant,Strawberry,Edible Flowers,Pink,Happy Birthday!,Round,Dairy,Almond Milk,Plastic Container,34.19,2
+36,Wedding,Vanilla,Lemon Curd,6 inch,2,Buttercream,Vanilla,Chocolate Shavings,Blue,Congratulations!,Square,Nuts,Organic Eggs,Gift Wrap,23.61,2
+37,Baby Shower,Vanilla,Chocolate Ganache,10 inch,2,Buttercream,Lemon,Fruit,Red,Best Wishes!,Square,None,Almond Milk,Plastic Container,60.41,4
+38,Baby Shower,Vanilla,Chocolate Ganache,10 inch,1,Whipped Cream,Lemon,Fruit,Blue,Congratulations!,Heart,Gluten,Almond Milk,Plastic Container,26.82,1
+39,Anniversary,Chocolate,Strawberry,8 inch,2,Buttercream,Lemon,Chocolate Shavings,Green,Congratulations!,Rectangle,Nuts,Coconut Sugar,Gift Wrap,40.65,1
+40,Baby Shower,Lemon,Chocolate Ganache,10 inch,2,Buttercream,Lemon,Sprinkles,Blue,Happy Birthday!,Rectangle,Dairy,Organic Eggs,Gift Wrap,49.82,1
+41,Anniversary,Carrot,Vanilla Cream,10 inch,3,Buttercream,Chocolate,Fruit,Pink,Happy Anniversary!,Round,Dairy,Coconut Sugar,Plastic Container,95.99,4
+42,Baby Shower,Carrot,Strawberry,6 inch,4,Fondant,Chocolate,Chocolate Shavings,Green,Best Wishes!,Rectangle,Dairy,Organic Eggs,Plastic Container,65.86,2
+43,Birthday,Red Velvet,Lemon Curd,6 inch,1,Whipped Cream,Lemon,Edible Flowers,Blue,Happy Anniversary!,Heart,Dairy,Vegan Butter,Gift Wrap,63.6,5
+44,Baby Shower,Carrot,Raspberry,6 inch,2,Buttercream,Chocolate,Chocolate Shavings,Blue,Welcome Baby!,Heart,Nuts,Coconut Sugar,Plastic Container,93.65,1
+45,Birthday,Lemon,Strawberry,8 inch,1,Fondant,Vanilla,Fruit,Gold,Congratulations!,Round,Nuts,Organic Eggs,Box,52.99,1
+46,Anniversary,Vanilla,Raspberry,12 inch,4,Buttercream,Lemon,Edible Flowers,Blue,Happy Anniversary!,Round,None,Almond Milk,Gift Wrap,140.28,1
+47,Baby Shower,Vanilla,Strawberry,8 inch,3,Whipped Cream,Chocolate,Fruit,Blue,Best Wishes!,Round,Dairy,Vegan Butter,Box,30.87,3
+48,Birthday,Lemon,Raspberry,10 inch,1,Fondant,Vanilla,Chocolate Shavings,Silver,Happy Anniversary!,Heart,Dairy,Organic Eggs,Plastic Container,44.62,1
+49,Wedding,Lemon,Raspberry,10 inch,1,Buttercream,Strawberry,Sprinkles,Pink,Happy Anniversary!,Rectangle,Nuts,Organic Eggs,Gift Wrap,68.65,3
+50,Birthday,Chocolate,Strawberry,12 inch,4,Buttercream,Chocolate,Sprinkles,Gold,Best Wishes!,Rectangle,Gluten,Almond Milk,Plastic Container,44.96,2
+51,Birthday,Lemon,Strawberry,12 inch,1,Whipped Cream,Vanilla,Edible Flowers,Pink,Best Wishes!,Rectangle,Dairy,Organic Eggs,Gift Wrap,38.55,4
+52,Anniversary,Carrot,Raspberry,10 inch,3,Buttercream,Chocolate,Fruit,Green,Happy Anniversary!,Round,Nuts,Almond Milk,Box,36.16,1
+53,Graduation,Carrot,Vanilla Cream,12 inch,4,Buttercream,Lemon,Sprinkles,Green,Congratulations!,Round,Nuts,Coconut Sugar,Gift Wrap,90.97,2
+54,Birthday,Chocolate,Chocolate Ganache,12 inch,2,Buttercream,Strawberry,Sprinkles,Gold,Best Wishes!,Square,None,Organic Eggs,Box,138.59,3
+55,Anniversary,Lemon,Lemon Curd,8 inch,2,Fondant,Chocolate,Fruit,Silver,Best Wishes!,Square,Gluten,Vegan Butter,Gift Wrap,123.5,2
+56,Wedding,Chocolate,Chocolate Ganache,12 inch,3,Whipped Cream,Lemon,Sprinkles,Pink,Happy Anniversary!,Rectangle,Nuts,Coconut Sugar,Box,119.96,1
+57,Wedding,Red Velvet,Lemon Curd,6 inch,1,Fondant,Vanilla,Fruit,Blue,Best Wishes!,Round,Gluten,Vegan Butter,Gift Wrap,74.71,2
+58,Birthday,Vanilla,Lemon Curd,12 inch,1,Fondant,Strawberry,Fruit,Pink,Happy Birthday!,Round,None,Coconut Sugar,Plastic Container,132.69,3
+59,Wedding,Vanilla,Lemon Curd,6 inch,3,Buttercream,Vanilla,Fruit,Gold,Happy Birthday!,Square,Nuts,Coconut Sugar,Plastic Container,25.73,4
+60,Wedding,Carrot,Raspberry,6 inch,4,Fondant,Strawberry,Edible Flowers,Pink,Congratulations!,Heart,None,Almond Milk,Plastic Container,121.14,1
+61,Graduation,Carrot,Vanilla Cream,6 inch,4,Fondant,Chocolate,Sprinkles,Silver,Congratulations!,Heart,Dairy,Organic Eggs,Plastic Container,134.99,2
+62,Birthday,Lemon,Vanilla Cream,10 inch,2,Fondant,Lemon,Sprinkles,Gold,Happy Anniversary!,Rectangle,Gluten,Vegan Butter,Gift Wrap,92.63,5
+63,Wedding,Chocolate,Raspberry,10 inch,2,Whipped Cream,Vanilla,Fruit,Silver,Best Wishes!,Rectangle,Dairy,Vegan Butter,Plastic Container,139.55,1
+64,Wedding,Vanilla,Raspberry,12 inch,2,Buttercream,Vanilla,Edible Flowers,Blue,Welcome Baby!,Heart,None,Organic Eggs,Box,108.85,2
+65,Graduation,Carrot,Chocolate Ganache,6 inch,4,Fondant,Lemon,Edible Flowers,Pink,Happy Anniversary!,Square,Dairy,Vegan Butter,Box,89.13,5
+66,Birthday,Red Velvet,Raspberry,10 inch,1,Whipped Cream,Chocolate,Fruit,Gold,Best Wishes!,Round,Nuts,Vegan Butter,Plastic Container,145.96,1
+67,Baby Shower,Red Velvet,Lemon Curd,6 inch,4,Buttercream,Lemon,Edible Flowers,Silver,Best Wishes!,Round,Dairy,Vegan Butter,Plastic Container,82.92,5
+68,Graduation,Lemon,Strawberry,6 inch,3,Fondant,Chocolate,Chocolate Shavings,Green,Happy Birthday!,Square,None,Vegan Butter,Plastic Container,93.63,2
+69,Birthday,Chocolate,Raspberry,12 inch,2,Fondant,Vanilla,Fruit,Red,Happy Anniversary!,Square,Dairy,Almond Milk,Gift Wrap,87.51,5
+70,Wedding,Lemon,Lemon Curd,12 inch,4,Fondant,Vanilla,Chocolate Shavings,Silver,Welcome Baby!,Rectangle,Gluten,Almond Milk,Box,92.12,4
+71,Graduation,Red Velvet,Lemon Curd,10 inch,1,Buttercream,Chocolate,Sprinkles,Gold,Best Wishes!,Round,Dairy,Coconut Sugar,Gift Wrap,145.1,1
+72,Baby Shower,Red Velvet,Lemon Curd,8 inch,2,Buttercream,Strawberry,Sprinkles,Blue,Congratulations!,Square,Gluten,Vegan Butter,Plastic Container,37.63,4
+73,Graduation,Chocolate,Vanilla Cream,6 inch,2,Whipped Cream,Lemon,Fruit,Silver,Congratulations!,Round,Gluten,Almond Milk,Plastic Container,99.3,3
+74,Birthday,Vanilla,Lemon Curd,8 inch,3,Fondant,Strawberry,Edible Flowers,Silver,Happy Birthday!,Heart,Gluten,Coconut Sugar,Box,138.98,3
+75,Baby Shower,Vanilla,Chocolate Ganache,12 inch,4,Buttercream,Strawberry,Edible Flowers,Green,Welcome Baby!,Heart,Dairy,Organic Eggs,Gift Wrap,83.92,1
+76,Birthday,Lemon,Lemon Curd,8 inch,3,Fondant,Vanilla,Edible Flowers,Pink,Happy Anniversary!,Rectangle,Gluten,Coconut Sugar,Box,86.41,4
+77,Birthday,Carrot,Lemon Curd,10 inch,2,Fondant,Vanilla,Fruit,Red,Happy Birthday!,Square,Nuts,Almond Milk,Gift Wrap,44.57,4
+78,Graduation,Chocolate,Strawberry,10 inch,2,Buttercream,Vanilla,Fruit,Gold,Congratulations!,Heart,Dairy,Vegan Butter,Box,105.65,1
+79,Baby Shower,Vanilla,Vanilla Cream,6 inch,3,Buttercream,Strawberry,Chocolate Shavings,Red,Welcome Baby!,Heart,Nuts,Vegan Butter,Box,60.14,4
+80,Wedding,Vanilla,Vanilla Cream,12 inch,4,Buttercream,Vanilla,Fruit,Gold,Welcome Baby!,Round,Dairy,Organic Eggs,Plastic Container,149.9,1
+81,Anniversary,Vanilla,Strawberry,8 inch,2,Buttercream,Chocolate,Sprinkles,Pink,Best Wishes!,Rectangle,None,Vegan Butter,Box,52.38,5
+82,Baby Shower,Lemon,Strawberry,6 inch,2,Buttercream,Strawberry,Sprinkles,Gold,Congratulations!,Rectangle,Nuts,Coconut Sugar,Plastic Container,104.36,5
+83,Birthday,Red Velvet,Raspberry,12 inch,2,Whipped Cream,Lemon,Edible Flowers,Gold,Welcome Baby!,Heart,None,Vegan Butter,Gift Wrap,119.29,4
+84,Anniversary,Carrot,Strawberry,12 inch,1,Fondant,Lemon,Chocolate Shavings,Blue,Best Wishes!,Rectangle,Nuts,Almond Milk,Box,117.6,2
+85,Wedding,Lemon,Vanilla Cream,8 inch,1,Fondant,Vanilla,Sprinkles,Blue,Happy Birthday!,Rectangle,Gluten,Organic Eggs,Gift Wrap,101.29,5
+86,Baby Shower,Vanilla,Vanilla Cream,10 inch,4,Whipped Cream,Lemon,Chocolate Shavings,Gold,Congratulations!,Heart,Gluten,Vegan Butter,Gift Wrap,26.46,5
+87,Birthday,Lemon,Vanilla Cream,8 inch,2,Buttercream,Chocolate,Edible Flowers,Gold,Happy Birthday!,Square,Dairy,Coconut Sugar,Gift Wrap,93.14,4
+88,Graduation,Red Velvet,Chocolate Ganache,8 inch,2,Buttercream,Strawberry,Fruit,Pink,Happy Anniversary!,Square,Gluten,Organic Eggs,Gift Wrap,91.25,3
+89,Graduation,Chocolate,Lemon Curd,12 inch,1,Fondant,Lemon,Sprinkles,Pink,Welcome Baby!,Rectangle,Nuts,Coconut Sugar,Gift Wrap,103.27,2
+90,Wedding,Red Velvet,Lemon Curd,6 inch,3,Buttercream,Strawberry,Fruit,Blue,Happy Anniversary!,Round,Gluten,Coconut Sugar,Plastic Container,25.29,5
+91,Birthday,Vanilla,Strawberry,8 inch,1,Buttercream,Vanilla,Sprinkles,Blue,Welcome Baby!,Heart,Dairy,Coconut Sugar,Plastic Container,91.12,3
+92,Wedding,Red Velvet,Chocolate Ganache,6 inch,3,Buttercream,Chocolate,Edible Flowers,Blue,Happy Birthday!,Heart,Gluten,Coconut Sugar,Box,65.2,5
+93,Graduation,Chocolate,Strawberry,6 inch,4,Whipped Cream,Vanilla,Sprinkles,Gold,Best Wishes!,Rectangle,None,Almond Milk,Plastic Container,119.7,2
+94,Anniversary,Red Velvet,Vanilla Cream,6 inch,2,Buttercream,Vanilla,Fruit,Red,Happy Anniversary!,Round,None,Almond Milk,Gift Wrap,92.6,3
+95,Baby Shower,Red Velvet,Raspberry,12 inch,1,Fondant,Chocolate,Chocolate Shavings,Pink,Congratulations!,Square,Dairy,Coconut Sugar,Box,133.94,3
+96,Baby Shower,Red Velvet,Raspberry,8 inch,1,Buttercream,Chocolate,Sprinkles,Blue,Best Wishes!,Heart,Nuts,Almond Milk,Gift Wrap,88.39,3
+97,Baby Shower,Carrot,Chocolate Ganache,12 inch,1,Buttercream,Vanilla,Sprinkles,Green,Happy Anniversary!,Round,Dairy,Vegan Butter,Gift Wrap,69.36,3
+98,Anniversary,Chocolate,Chocolate Ganache,8 inch,1,Buttercream,Strawberry,Fruit,Silver,Happy Birthday!,Heart,Nuts,Vegan Butter,Plastic Container,32.65,1
+99,Wedding,Red Velvet,Lemon Curd,6 inch,3,Buttercream,Vanilla,Edible Flowers,Red,Welcome Baby!,Square,Nuts,Organic Eggs,Gift Wrap,132.71,3
+100,Anniversary,Carrot,Strawberry,8 inch,4,Buttercream,Vanilla,Edible Flowers,Green,Welcome Baby!,Rectangle,Gluten,Coconut Sugar,Gift Wrap,124.11,3
